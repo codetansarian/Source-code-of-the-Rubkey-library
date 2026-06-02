@@ -1,6 +1,6 @@
 from rubkey import Rubkey, Keypad, TextboxButton
 
-TOKEN = "توکن_واقعی_شما"
+TOKEN = "توکن_باتتو_بزن_اینجا"
 
 bot = Rubkey(token=TOKEN)
 
