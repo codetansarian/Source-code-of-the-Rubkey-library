@@ -22,7 +22,7 @@ def group_messages(msg, group_info):
 
 @handlers.on_message(group_only=False)
 def all_messages(msg, group_info):
-    msg.reply(f"پیام شما دریافت شد!")
+    msg.reply(f"پیام شما دریافت شد")
 
 bot.set_group_handlers(handlers)
 bot.run()
